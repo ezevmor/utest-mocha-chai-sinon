@@ -1,4 +1,8 @@
 function getGreeting(name) {
+  if (!name || name.trim().length === 0) {
+    name = 'anonymous';
+  }
+
   return `hello ${name}`
 }
 
