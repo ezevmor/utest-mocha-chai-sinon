@@ -1,4 +1,5 @@
 import constants from './constants.js';
+import dateUtils from './date-utils.js';
 
 function getGreeting(name) {
   if (!name || name.trim().length === 0) {
@@ -9,7 +10,7 @@ function getGreeting(name) {
 }
 
 function getTime() {
-  const now = new Date();
+  const now = dateUtils.getDate();
   return `${now.getHours()}:${now.getMinutes()}`
 }
 
