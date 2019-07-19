@@ -1,0 +1,19 @@
+{
+  "name": "utest-mocha-chai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha -r esm",
+    "server": "cd app && npx ws -o"
+  },
+  "author": "elio zevallos more",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "esm": "^3.2.25",
+    "local-web-server": "^3.0.4",
+    "mocha": "^6.1.4"
+  },
+  "dependencies": {}
+}
